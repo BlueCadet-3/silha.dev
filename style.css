@@ -172,7 +172,8 @@ header h1 {
   animation: fadein 1.2s;
 }
 
-header h6 {
+header span {
+  font-size: var(--h6);
   font-weight: 300;
   line-height: 1;
   color: var(--bga-05);
@@ -221,8 +222,8 @@ div.portfolio-card > p {
 }
 
 div#portfolio {
-  -webkit-animation: fadein 4s;
-  animation: fadein 4s;
+  -webkit-animation: fadein 3s;
+  animation: fadein 3s;
 }
 
 div.portfolio-card {
@@ -232,7 +233,7 @@ div.portfolio-card {
 }
 
 img.portfolio-card {
-  width: 90vw;
+  width: 70vw;
 }
 
 @media only screen and (min-width: 768px) {
