@@ -92,7 +92,7 @@ html {
 body {
   font-family: var(--fnt-body);
   font-size: 28px;
-  line-height: 1.5;
+  line-height: 1.875;
   overflow-x: hidden;
   user-zoom: none;
   -webkit-user-select: none;
@@ -164,12 +164,11 @@ header {
 }
 
 header h1 {
-  font-size: 7.43rem;
   line-height: 1;
   font-weight: 400;
   margin-bottom: -2rem;
-  -webkit-animation: fadein 1.2s;
-  animation: fadein 1.2s;
+  -webkit-animation: fadein 0.3s;
+  animation: fadein 0.3s;
 }
 
 header span {
@@ -178,8 +177,8 @@ header span {
   line-height: 1;
   color: var(--bga-05);
   margin-bottom: 2vmin;
-  -webkit-animation: fadein 4s;
-  animation: fadein 4s;
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
 }
 
 main.content {
@@ -200,24 +199,16 @@ div#about {
   animation: fadein 2s;
 }
 
-div#about > p,
-div.portfolio-card > p {
+p {
   color: var(--bga-04);
   padding: 1em 0.8em 2em 0.8em;
-}
-
-@media only screen and (min-width: 768px) {
-  div#about > p,
-  div.portfolio-card > p {
-    padding: 1em 4em 3em 4em;
-  }
+  width: 600px;
+  max-width: calc(100% - 40px);
 }
 
 @media only screen and (min-width: 1024px) {
-  div#about > p,
-  div.portfolio-card > p {
-    color: var(--bga-04);
-    padding: 2em 12em 6em 12em;
+  img {
+    max-width: 30vw;
   }
 }
 
@@ -234,6 +225,22 @@ div.portfolio-card {
 
 img.portfolio-card {
   width: 70vw;
+  height: auto;
+}
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -277,6 +284,7 @@ footer {
   grid-template-rows: 1fr;
   justify-content: space-evenly;
   align-content: center;
+  margin: 2vmin 0;
   background-color: var(--bgc-09);
   width: 100%;
   font-size: 2.5rem;
