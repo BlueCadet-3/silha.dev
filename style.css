@@ -93,7 +93,7 @@ html {
 body {
   height: 66vh;
   font-family: var(--fnt-body);
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.875;
   overflow-x: hidden;
   user-zoom: none;
