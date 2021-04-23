@@ -153,6 +153,7 @@ header {
   grid-area: header;
   background-color: rgba(34, 34, 34, 0.78);
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   width: 100%;
   min-height: 20vh;
   max-height: 20vh;
