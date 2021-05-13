@@ -25,7 +25,7 @@
   --bga-01: #627d98;
   --bga-02: #f0f4f8;
   --bga-03: #d9e2ec;
-  --bga-04: #bcccdc;
+  --bga-04: #b7d1deff;
   --bga-05: #9fb3c8;
   --bga-06: #829ab1;
   --bga-07: #627d98;
@@ -174,8 +174,8 @@ header h1 {
   line-height: 1;
   font-weight: 400;
   margin-bottom: -2rem;
-  -webkit-animation: fadein 0.3s;
-  animation: fadein 0.3s;
+  /* -webkit-animation: fadein 0.3s; */
+  /* animation: fadein 0.3s; */
 }
 
 header span {
@@ -184,8 +184,8 @@ header span {
   line-height: 1;
   color: var(--bga-05);
   margin-bottom: 2vmin;
-  -webkit-animation: fadein 2s;
-  animation: fadein 2s;
+  /* -webkit-animation: fadein 2s; */
+  /* animation: fadein 2s; */
 }
 
 main.content {
@@ -199,15 +199,17 @@ div#about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--bga-06);
+  /* color: var(--bga-06); */
   padding: 1rem;
   margin-top: 20vh;
-  -webkit-animation: fadein 1.2s;
-  animation: fadein 1.2s;
+  /* -webkit-animation: fadein 1.2s; */
+  /* animation: fadein 1.2s; */
 }
 
 p {
   color: var(--bga-04);
+  font-weight: 400;
+  text-indent: 1.5em;
   padding: 1em 0.8em 2em 0.8em;
   width: 600px;
   max-width: calc(100% - 40px);
@@ -220,8 +222,8 @@ p {
 }
 
 div#portfolio {
-  -webkit-animation: fadein 3s;
-  animation: fadein 3s;
+  /* -webkit-animation: fadein 3s; */
+  /* animation: fadein 3s; */
 }
 
 div.portfolio-card {
@@ -300,8 +302,8 @@ footer > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-animation: fadein 1.6s;
-  animation: fadein 1.6s;
+  /* -webkit-animation: fadein 1.6s; */
+  /* animation: fadein 1.6s; */
 }
 
 :-webkit-any-link {
