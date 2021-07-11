@@ -277,6 +277,8 @@ div.portfolio-icon i {
 div.portfolio-svg {
   fill: var(--bga-06);
   stroke: var(--bga-06);
+  width: 100px;
+  height: auto;
 }
 
 div.portfolio-svg:hover {
